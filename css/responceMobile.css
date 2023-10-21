@@ -1,0 +1,127 @@
+@media (max-width : 500px){
+    body{
+        padding-top: 16px;
+    }
+    .wrapper{
+        width: 100%;
+        padding: 0 68px;
+    }
+    .header {
+    }
+    .header_logo {
+        width: 100px;
+        background-size: cover;
+        height: 38px;
+        background-image: url(../img/logoMobile.png);
+    }
+    .header_links {
+        display: none;
+    }
+    .header_link {
+    }
+    .tg_red {
+    }
+    .mail_red {
+    }
+    .s_red {
+    }
+    .skype_red {
+    }
+    .main {
+    }
+    .main_head {
+        width: 100%;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 3.84px;
+    }
+    .line {
+    }
+    .main_small_text {
+    }
+    .w568 {
+    }
+    .link_arrow {
+    }
+    .two_head {
+    }
+    .w958 {
+    }
+    .cards {
+    }
+    .card_title {
+    }
+    .card_btn {
+    }
+    .card-long {
+    }
+    .card-consult {
+    }
+    .btn_consult {
+    }
+    .main_mid_right {
+    }
+    .mid_title {
+    }
+    .link_one {
+    }
+    .mid_small {
+    }
+    .link_two {
+    }
+    .link_three {
+    }
+    .link_four {
+    }
+    .main_mid_left {
+    }
+    .btn_tg {
+    }
+    .garant_container {
+    }
+    .garant {
+    }
+    .garant_middle_conteiner {
+    }
+    .form_container {
+    }
+    .garant_inp {
+    }
+    .garant_area {
+    }
+    .bot_main {
+    }
+    .mb40 {
+    }
+    .garant_bottom_container {
+    }
+    .send {
+    }
+    .garant_bottom_text {
+    }
+    .red_link {
+    }
+    .footer_container {
+    }
+    .footer_logo_container {
+    }
+    .footer_logo {
+    }
+    .footer_text {
+    }
+    .links_footer {
+    }
+    .footer_link {
+    }
+    .link_grey_tg {
+    }
+    .link_grey_s {
+    }
+    .link_grey_mail {
+    }
+    .link_grey_skype {
+    }
+    .card{
+        width: 100%;
+    }
+}

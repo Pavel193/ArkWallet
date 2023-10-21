@@ -1,7 +1,7 @@
 @media (max-width:1366px){
 
 .wrapper{
-    width: 100%;
+    width: 1336px;
     padding: 0 72px;
 }
 .garant{
@@ -10,9 +10,11 @@
 .footer_container {
     padding: 0 72px;
     margin-top: 120px;
+    width: 100%;
 }
 
 .cards {
+    gap: 72px 2%;
 }
 .card {
     width: 576px;
@@ -43,6 +45,23 @@
 }
 .card:nth-child(8){
     order: 8;
+}
+.garant_inp:nth-child(1){
+    margin-right: 40px;
+}
+
+.garant_middle_conteiner{
+    flex-direction: column-reverse;
+}
+.garant_inp{
+    width: 574px;
+}
+.garant_area{
+    width: 1192px;
+}
+
+.footer_container{
+    width: 1336px;
 }
 
 }
