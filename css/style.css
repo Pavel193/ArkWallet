@@ -29,27 +29,39 @@ padding-top: 72px;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    transition: 0.3s;
+    background-color: #e6e4e4;
+    border-radius: 50%;
     
 }
 .tg_red {
     background-image: url(../img/tg_red.svg);
-    background-color: #e6e4e4;
-    border-radius: 50%;
 }
 .mail_red {
     background-image: url(../img/mail_red.svg);
-    background-color: #e6e4e4;
-    border-radius: 50%;
 }
 .s_red {
     background-image: url(../img/s_red.svg);
-    background-color: #e6e4e4;
-    border-radius: 50%;
 }
 .skype_red {
     background-image: url(../img/skype_red.svg);
-    background-color: #e6e4e4;
-    border-radius: 50%;
+}
+
+.header_link:hover{
+    background-color: #F96D6B;
+}
+
+.tg_red:hover{
+    background-image: url(../img/tg_hover.svg);
+}
+.mail_red:hover{
+    background-image: url(../img/mail_hover.svg);
+}
+.s_red:hover{
+    background-image: url(../img/s_hover.svg);
+}
+.skype_red:hover{
+    background-image: url(../img/skype_hover.svg);
 }
 
 .main {
@@ -100,9 +112,12 @@ padding-top: 72px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+    transition: 0.3s;
 }
 
-
+.link_arrow:hover{
+    background-color: #f96d6bd2;
+}
 
 .two_head {
     color: #2F2F2F;
@@ -145,6 +160,19 @@ padding-top: 72px;
     width: 66%;
     margin-top: -50px ;
 }
+
+.icon_card {
+    background-image: url(../img/icon_card.svg);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 10px;
+    top: 10px;
+    background-repeat: no-repeat;
+    display: none;
+    transition: 0.5s;
+    
+}
 .card_btn {
     color: #FFF;
     font-family: TT Firs Neue;
@@ -153,12 +181,17 @@ padding-top: 72px;
     font-weight: 400;
     line-height: 140%; /* 50.4px */
     border-radius: 8px;
-    background: #F96D6B;
+    background: #707070;
     height: 68px;
     border: none;
     position: absolute;
     bottom: -34px;
     padding: 0 32px;
+    transition: 0.3s;
+}
+
+.card_btn:hover{
+    background-color: #F96D6B;
 }
 
 .btn_consult {
@@ -170,15 +203,36 @@ padding-top: 72px;
     top: -4px;
     bottom: -4px;
     background-color:#F96D6B;
+    color: #F96D6B;
     width: 80px;
     border: none;
     border-radius: 0px 8px 8px 0px;
+    transition-duration: 0.5s;
+    transition-property: width;
+    font-family: TT Firs Neue;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
 }
+.card-consult:hover .btn_consult{
+    width: calc(100% + 8px);
+    border-radius: 8px;
+    background-position: 95%;
+    color: white;
+    font-size: 36px;
+}
+
 
 .card-consult {
     padding: 30px 40px;
 }
 
+.card-consult .card_btn{
+    display: none;
+}
 
 .main_mid_right {
     display: block;
@@ -194,20 +248,29 @@ padding-top: 72px;
     line-height: 140%; /* 50.4px */
     letter-spacing: 5.76px;
     
-    
+ 
 
 }
+
+
 .link_one {
     display: block;
     background-color:#545454;
-    background-image: url(/img/One.svg);
     width: 72px;
     height: 72px;
-    flex-shrink: 0;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 50%;
     margin: 40px 0 24px ;
+    color: #FFF;
+    text-align: center;
+    font-family: TT Firs Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 .mid_small {
@@ -218,45 +281,6 @@ padding-top: 72px;
     font-weight: 400;
     line-height: 160%; /* 32px */
     
-
-}
-.link_two {
-    display: block;
-    background-color:#545454;
-    background-image: url(/img/Two.svg);
-    width: 72px;
-    height: 72px;
-    flex-shrink: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin: 40px 0 24px ;
-
-}
-.link_three {
-    display: block;
-    background-color:#545454;
-    background-image: url(/img/Three.svg);
-    width: 72px;
-    height: 72px;
-    flex-shrink: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin: 40px 0 24px ;
-
-}
-.link_four {
-    display: block;
-    background-color:#F96D6B;
-    background-image: url(/img/Four.svg);
-    width: 72px;
-    height: 72px;
-    flex-shrink: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin: 40px 0 24px ;
 
 }
 
@@ -285,7 +309,14 @@ padding-top: 72px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
+    transition: 0.3s;
     
+}
+
+.btn_tg:hover{
+    background-color: #F96D6B;
+    background-image: url(../img/tg_white_btn.svg);
+    color: #EBEBEB;
 }
 
 .garant {
@@ -300,9 +331,12 @@ padding-top: 72px;
     border: none;
     
 }
-.mid_title {
-    color: #fff;
+
+.slideCont {
+    overflow: hidden;
+    height: 50px;
 }
+
 .bot_main {
    justify-content: space-between;
 }
@@ -367,9 +401,6 @@ padding-top: 72px;
 .mb40{
     margin-bottom: 40px;
 }
-.bot_main {
-
-}
 .garant_bottom_container {
     display: flex;
     align-items: center;
@@ -404,6 +435,18 @@ padding-top: 72px;
     color: #F96D6B;
 }
 
+
+.garant_mid_title{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+    letter-spacing: 5.76px;
+}
 
 .footer_container {
     background-color:  #2F2F2F;
@@ -474,4 +517,59 @@ padding-top: 72px;
 }
 .link_grey_skype {
     background-image: url(/img/skype_grey.svg);
+}
+
+.modal_window{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.disabled{
+    background-color: #707070;
+}
+
+.modalNone{
+    display: none;
+}
+
+
+.card_text{
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    max-height: 800px;
+    transition: 1s;
+    overflow: hidden;
+}
+.close_text{
+    max-height: 0;
+
+}
+
+.wboard{
+    border: solid 1px white;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.burger_icon {
+    background-image: url(../img/burger_icon.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
 }

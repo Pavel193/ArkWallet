@@ -50,6 +50,11 @@
     margin-right: 40px;
 }
 
+.card-consult{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .garant_middle_conteiner{
     flex-direction: column-reverse;
 }

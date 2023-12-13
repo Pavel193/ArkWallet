@@ -1,0 +1,239 @@
+@media (max-width: 800px) {
+    .wrapper {
+        padding: 0 68px;
+        width: 604px;
+        box-sizing: content-box;
+    }
+    .header {
+    }
+    .header_logo {
+        width: 289px;
+        height: 26px;
+        background-size: cover;
+    }
+    .header_links {
+        width: 192px;
+
+    }
+    .header_link {
+        width: 36px;
+        height: 36px;
+        background-size: 24px;
+    }
+    .main_head {
+        font-size: 24px;
+        line-height: 140%; /* 33.6px */
+        letter-spacing: 3.84px;
+        width: 288px;
+        margin-top: 90px;
+    }
+
+    .absolut_cont p {
+        margin-bottom: 0;
+    }
+    .absolut_cont{
+        bottom: 0;
+    }
+    .line {
+        width: 64px;
+        margin: 20px 0;
+    }
+    .main_small_text {
+        width: 208px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        margin-bottom: 0;
+        width: 288px;
+    }
+   
+    .link_arrow {
+        display: none;
+    }
+    .two_head {
+        font-size: 20px;
+        line-height: 140%; /* 28px */
+        letter-spacing: 3.2px;
+        margin: 68px 0 16px ;
+    }
+    .cards {
+        gap: 42px 28px;
+        margin-top: 68px;
+        
+    }
+    .card :nth-child(1){
+        order: 1;
+    }
+    .card :nth-child(2){
+        order: 6; 
+    }
+    .card :nth-child(3){
+        order: 4;
+    }
+    .card :nth-child(4){
+        order: 3;
+    }
+    .card :nth-child(5){
+        order: 5;
+
+    }
+    .card :nth-child(6){
+        order: 2;
+    }
+    .card :nth-child(7){
+        order: 7;
+    }
+    .card :nth-child(8){
+        order: 8;
+    }
+    .card {
+        width: 288px;
+        padding: 16px 40px 30px 16px;
+    }
+    .card_title {
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: 3.2px;
+    }
+
+    
+    .card_btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    height: 28px;
+    bottom: -14px;
+    }
+    .card-long {
+    }
+    .card-consult {
+        padding-top: 16px;
+        padding-bottom: 30px;
+
+    }
+    .btn_consult {
+    }
+
+    .card-consult .card_btn{
+        display: block;
+    }
+
+    .main_mid_right {
+        margin-top: 266px;
+        margin-left: 50%;
+        position: relative;
+        
+    }
+    .mid_title {
+        letter-spacing: 3.2px;
+        line-height: 140%;
+        font-size: 20px;
+    }
+    .link_one{
+        width: 40px;
+        height: 40px;
+    }
+    .absolut_cont{
+        position: absolute;
+        left: -100%;
+        width: 95%;
+    }
+    .mid_small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    
+    }
+  
+
+    .main_mid_left {
+        margin: 119px 0 0;
+        width: 50%;
+    }
+    .mid_title {
+    }
+    .mid_small {
+        margin: 20px 20px 0 0;
+        width: 100%;
+        font-size: 14px;
+    }
+    .btn_tg {
+        width: 100%;
+        
+    }
+    .line {
+        width: 64px;
+        margin: 20px 20px 0 0;
+    }
+
+    .garant_container {
+    }
+    .garant {
+        height: 92px;
+        padding: 16px;
+    }
+    .garant_mid_title {
+        gap: 7px;
+        color: #FFF;
+        font-size: 16px;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: 2.56px;
+    }
+    
+    .garant_middle_conteiner {
+        flex-direction: row;
+        gap: 28px;
+        position: relative;
+    }
+    .form_container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 100%;
+    }
+    .garant_inp {
+        width: 48%;
+    }
+    .garant_area {
+        margin: 0;
+        width: 100%;
+    }
+    .bot_main {
+        position: absolute;
+        right: 0;
+        width: 48%;
+        top: 0;
+    }
+    .mid_small {
+        font-size: 12px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .mt20{
+        margin-top: 20px;
+    }
+    .mb40 {
+        margin: 0;
+    }
+    .footer_container {
+        width: 768px;
+    }
+
+    .links_footer {
+        gap: 22px;
+    }
+    .footer_link {
+    }
+
+    .footer_text {
+        text-align: left;
+        font-size: 12px;
+    }
+   
+    .card_text{
+        font-size: 14px;
+        line-height: 160%; /* 22.4px */
+    }
+}

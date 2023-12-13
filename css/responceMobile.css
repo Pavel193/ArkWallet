@@ -4,7 +4,9 @@
     }
     .wrapper{
         width: 100%;
-        padding: 0 68px;
+        padding: 0 16px;
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
     .header {
     }
@@ -14,8 +16,10 @@
         height: 38px;
         background-image: url(../img/logoMobile.png);
     }
-    .header_links {
-        display: none;
+    .header .header_links {
+        position: absolute;
+        top: 50px;
+        right: 20px;
     }
     .header_link {
     }
@@ -30,88 +34,184 @@
     .main {
     }
     .main_head {
+        text-transform: uppercase;
         width: 100%;
         font-size: 24px;
         line-height: 140%;
         letter-spacing: 3.84px;
     }
     .line {
+        margin: 20px 0 20px 0;
     }
     .main_small_text {
+        width: 60%;
+
     }
     .w568 {
     }
     .link_arrow {
     }
     .two_head {
+        margin: 60px 0 16px;
     }
     .w958 {
     }
     .cards {
+        position: relative;
     }
-    .card_title {
+
+    .icon_card {
+        display: block;
     }
-    .card_btn {
-    }
-    .card-long {
-    }
-    .card-consult {
-    }
-    .btn_consult {
-    }
+
     .main_mid_right {
+        margin: 0;
+        margin-top: 60px;
+       
+
     }
     .mid_title {
     }
     .link_one {
-    }
-    .mid_small {
-    }
-    .link_two {
-    }
-    .link_three {
-    }
-    .link_four {
-    }
-    .main_mid_left {
-    }
-    .btn_tg {
-    }
-    .garant_container {
-    }
-    .garant {
-    }
-    .garant_middle_conteiner {
-    }
-    .form_container {
-    }
-    .garant_inp {
-    }
-    .garant_area {
-    }
-    .bot_main {
-    }
-    .mb40 {
-    }
-    .garant_bottom_container {
-    }
-    .send {
-    }
-    .garant_bottom_text {
+        margin: 20px 0 20px;
     }
     .red_link {
     }
+    .absolut_cont {
+        position: relative;
+        left: 0;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .main_mid_left {
+        margin: 0;
+        width: 100%;
+    }
+    .mid_title {
+        margin: 60px 0 20px;
+
+    }
+    .mid_small {
+        font-size: 14px;
+    
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+    }
+    .btn_tg {
+        margin: 20px 0 60px;
+        background-position-x: 16px;
+    }
+    .line {
+        width: 100%;
+    }
+
+    .garant_container {
+    }
+    .garant_inp:nth-child(1){
+        margin: 0;
+    }
+    .garant {
+        margin-top: 60px;
+        width: 100%;
+        left: 0;
+       height: 114px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .garant_mid_title {
+    }
+    .garant_middle_conteiner {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        
+    }
+    .form_container {
+        
+        
+    }
+    .garant_inp {
+        width: 100%;
+    }
+    .garant_area {
+        height: 298px;
+    }
+    .bot_main {
+        width: 100%;
+        position: relative;
+    }
+    .mid_small {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .mb40 {
+        margin-top: 0;
+    }
+    .header_links {
+        display: flex;
+        margin: 20px 0 20px 0;
+    }
+    .mt20 {
+        
+        gap: 16px;
+    }
+    .header_link {
+        
+    }
+    .tg_red {
+    }
+    .mail_red {
+    }
+    .s_red {
+    }
+    .skype_red {
+    }
+    .garant_bottom_container {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 16px;
+        
+    }
+    .send {
+        margin: 0;
+        width: 100%;
+        
+    }
+    .garant_bottom_text {
+        width: 100%;
+        margin-top: 16px;
+        color: #2F2F2F;
+        font-size: 16px;
+        text-align: left;
+    }
+    .red_link {
+    }
+
     .footer_container {
+        margin-top: 60px;
+        width: 100%;
+        padding: 15px;
+        align-items: flex-start;
+        position: relative;
     }
     .footer_logo_container {
+        height: 100%;
     }
     .footer_logo {
     }
     .footer_text {
     }
     .links_footer {
+        position: absolute;
+        top: 71px;
+        
     }
     .footer_link {
+        flex-direction: row;
+        display: block;
+        
     }
     .link_grey_tg {
     }
@@ -121,7 +221,13 @@
     }
     .link_grey_skype {
     }
-    .card{
-        width: 100%;
+    .none{
+        display: none;
+        
     }
+
+    .burger_icon{
+        display: block;
+    }
+    
 }
